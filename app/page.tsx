@@ -59,7 +59,7 @@ export default function Home() {
               Experienced in enterprise cloud infrastructure, L2/L3 technical support, 
               and scalable backend development[cite: 1]. Ex-Accenture & Ex-Amazon with a strong 
               foundation in Java, Python, SQL, Azure, and ServiceNow[cite: 1]. GATE 2026 CS qualified 
-              and AZ-900 certified[cite: 1].
+              and AZ-900 certified.
             </p>
 
             {/* Buttons */}
