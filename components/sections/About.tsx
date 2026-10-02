@@ -17,16 +17,24 @@ export default function About() {
       {/* Content */}
       <div className="mt-10 max-w-4xl space-y-6 text-zinc-400 text-lg leading-relaxed">
         <p>
-          I am an MCA student specializing in Data Analytics with
-          experience in cloud production support, backend development,
-          and scalable software systems.
+          I am a Master of Computer Applications (MCA) graduate specializing in 
+          Data Analytics, with 1.5+ years of combined experience across cloud 
+          production support, technical operations, and backend development at 
+          Accenture and Amazon.
         </p>
 
         <p>
-          My interests include backend engineering, distributed systems,
-          software architecture, and data-driven applications. I enjoy
-          building practical full-stack applications while continuing to
-          strengthen my computer science fundamentals.
+          My background spans managing high-availability Azure cloud infrastructure, 
+          handling L2/L3 incident resolution on ServiceNow, and building scalable 
+          full-stack applications using Java, Python, SQL, and modern web technologies. 
+          I am also GATE 2026 (Computer Science) qualified and Microsoft Certified in 
+          Azure Fundamentals (AZ-900).
+        </p>
+
+        <p>
+          I am an <strong className="text-zinc-200 font-semibold">Immediate Joiner (0-Day Notice)</strong> actively 
+          seeking opportunities across Software Engineering, Cloud Operations, NOC, 
+          and Technical Support roles.
         </p>
       </div>
     </section>
