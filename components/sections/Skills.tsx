@@ -1,59 +1,56 @@
 const skillGroups = [
   {
-    title: "Backend Engineering",
-
+    title: "Backend & Core Engineering",
     description:
-      "I enjoy building backend systems, authentication workflows, APIs, and scalable application architectures with a focus on clean engineering principles.",
-
+      "Building reliable backend systems, REST APIs, and application architectures with a strong focus on core computer science fundamentals and data structures.",
     skills: [
+      "Java",
+      "Python",
       "Node.js",
       "Express.js",
-      "MongoDB",
       "REST APIs",
+      "SQL",
+      "MongoDB",
       "JWT",
     ],
   },
-
+  {
+    title: "Cloud Ops & Technical Support",
+    description:
+      "Hands-on experience in production cloud monitoring, Azure virtual infrastructure, L2/L3 incident resolution, and enterprise IT operations.",
+    skills: [
+      "Azure (AZ-900)",
+      "ServiceNow",
+      "Control-M",
+      "L2/L3 Support",
+      "Incident Management",
+      "NOC Operations",
+      "SLA Management",
+    ],
+  },
   {
     title: "Frontend Development",
-
     description:
-      "I like creating responsive and modern user interfaces while focusing on usability, clean layouts, and component-driven development.",
-
+      "Crafting responsive, clean, and modern user interfaces focused on performance, accessibility, and component-driven architecture.",
     skills: [
       "React.js",
       "Next.js",
+      "JavaScript (ES6+)",
       "Tailwind CSS",
-      "JavaScript",
+      "HTML5/CSS3",
     ],
   },
-
   {
-    title: "Cloud & Enterprise Systems",
-
+    title: "Tools & Analytics",
     description:
-      "My experience at Accenture introduced me to Azure production support, monitoring systems, incident handling, and enterprise workflows.",
-
+      "Utilizing modern developer tools, version control workflows, and data analysis packages for fast debugging and workflow automation.",
     skills: [
-      "Azure",
-      "ServiceNow",
-      "Control-M",
-      "Monitoring",
-    ],
-  },
-
-  {
-    title: "Learning & Problem Solving",
-
-    description:
-      "I continuously explore software engineering fundamentals, analytics workflows, developer tooling, and problem solving through projects and self-learning.",
-
-    skills: [
-      "Python",
       "Git",
       "GitHub",
       "Pandas",
+      "Postman",
       "VS Code",
+      "Linux Fundamentals",
     ],
   },
 ];
@@ -76,14 +73,13 @@ export default function Skills() {
 
       {/* Description */}
       <p className="mt-6 max-w-2xl text-zinc-400 text-lg leading-relaxed">
-        My interests revolve around backend engineering, scalable web
-        applications, cloud systems, and practical software development
-        workflows.
+        My technical background spans backend software engineering, cloud 
+        infrastructure monitoring, technical support operations, and modern 
+        full-stack development.
       </p>
 
       {/* Skills Grid */}
       <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
-
         {skillGroups.map((group) => (
           <div
             key={group.title}
@@ -98,7 +94,6 @@ export default function Skills() {
               hover:bg-[#10182b]
             "
           >
-
             {/* Accent */}
             <div className="mb-8 h-[3px] w-12 rounded-full bg-cyan-400" />
 
@@ -114,7 +109,6 @@ export default function Skills() {
 
             {/* Tags */}
             <div className="mt-8 flex flex-wrap gap-3">
-
               {group.skills.map((skill) => (
                 <span
                   key={skill}
@@ -129,12 +123,9 @@ export default function Skills() {
                   {skill}
                 </span>
               ))}
-
             </div>
-
           </div>
         ))}
-
       </div>
     </section>
   );
