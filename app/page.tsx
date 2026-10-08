@@ -57,8 +57,8 @@ export default function Home() {
             {/* Description */}
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-zinc-400">
               Experienced in enterprise cloud infrastructure, L2/L3 technical support, 
-              and scalable backend development[cite: 1]. Ex-Accenture & Ex-Amazon with a strong 
-              foundation in Java, Python, SQL, Azure, and ServiceNow[cite: 1]. GATE 2026 CS qualified 
+              and scalable backend development. Ex-Accenture & Ex-Amazon with a strong 
+              foundation in Java, Python, SQL, Azure, and ServiceNow. GATE 2026 CS qualified 
               and AZ-900 certified.
             </p>
 
