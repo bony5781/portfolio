@@ -2,10 +2,8 @@ const experiences = [
   {
     company: "Accenture",
     role: "Packaged Application Development Associate",
-
     description:
       "Worked in Azure production support handling application monitoring, incident resolution, and enterprise workflow management using tools like ServiceNow and Control-M.",
-
     tech: [
       "Azure",
       "ServiceNow",
@@ -13,14 +11,11 @@ const experiences = [
       "Enterprise Support",
     ],
   },
-
   {
     company: "Cameraji",
     role: "Full Stack Web Developer Intern",
-
     description:
       "Developed and maintained frontend and backend features for web applications while working with modern full-stack development workflows.",
-
     tech: [
       "React.js",
       "Node.js",
@@ -28,19 +23,16 @@ const experiences = [
       "MongoDB",
     ],
   },
-
   {
-    company: "Amazon",
-    role: "SDS",
-
+    company: "Amazon Development Centre",
+    role: "Technical Support Associate",
     description:
-      "Assisted sellers with operational and account-related issues while working in a fast-paced customer support environment.",
-
+      "Managed operational ticketing queues, system troubleshooting, and root-cause analysis for high-volume workflows while strictly meeting global SLA targets.",
     tech: [
-      "Customer Support",
-      "Communication",
-      "Problem Solving",
-      "Operations Workflow",
+      "Incident Management",
+      "Troubleshooting",
+      "Queue Operations",
+      "SLA Tracking",
     ],
   },
 ];
@@ -64,12 +56,11 @@ export default function Experience() {
       {/* Description */}
       <p className="mt-6 max-w-2xl text-zinc-400 text-lg leading-relaxed">
         Experience across cloud production support, enterprise operations,
-        customer systems, and full-stack web development workflows.
+        technical incident management, and full-stack web development workflows.
       </p>
 
       {/* Experience Cards */}
       <div className="mt-16 space-y-8">
-
         {experiences.map((exp) => (
           <div
             key={exp.company}
@@ -84,7 +75,6 @@ export default function Experience() {
               hover:bg-[#10182b]
             "
           >
-
             {/* Company */}
             <h3 className="text-2xl font-semibold tracking-tight">
               {exp.company}
@@ -102,7 +92,6 @@ export default function Experience() {
 
             {/* Tech Tags */}
             <div className="mt-8 flex flex-wrap gap-3">
-
               {exp.tech.map((item) => (
                 <span
                   key={item}
@@ -117,12 +106,9 @@ export default function Experience() {
                   {item}
                 </span>
               ))}
-
             </div>
-
           </div>
         ))}
-
       </div>
     </section>
   );
