@@ -17,10 +17,10 @@ export default function About() {
       {/* Content */}
       <div className="mt-10 max-w-4xl space-y-6 text-zinc-400 text-lg leading-relaxed">
         <p>
-          I am a Master of Computer Applications (MCA) graduate with 1.5+ years of 
-          combined experience across cloud production support, technical operations, 
-          and backend engineering at Accenture and Amazon.
-        </p>
+  I am a post-graduate in Computer Applications (Data Analytics) with 1.5+ years of 
+  combined experience across cloud production support, technical operations, 
+  and backend engineering at Accenture and Amazon.
+</p>
 
         <p>
           My background spans managing high-availability Azure cloud infrastructure, 
